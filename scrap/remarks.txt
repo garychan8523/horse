@@ -1,0 +1,5 @@
+
+
+# there are different format version of data
+the latest format version started from >= 20120908
+http://hk.racing.nextmedia.com/emodds.php?date=20120908&page=1
