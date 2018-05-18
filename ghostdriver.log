@@ -1,0 +1,15 @@
+[INFO  - 2018-05-18T03:03:18.512Z] GhostDriver - Main - running on port 52261
+[INFO  - 2018-05-18T03:03:21.533Z] Session [05be1a90-5a48-11e8-948f-dff870416a9a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-18T03:03:21.533Z] Session [05be1a90-5a48-11e8-948f-dff870416a9a] - page.customHeaders:  - {}
+[INFO  - 2018-05-18T03:03:21.533Z] Session [05be1a90-5a48-11e8-948f-dff870416a9a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-18T03:03:21.534Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 05be1a90-5a48-11e8-948f-dff870416a9a
+[ERROR - 2018-05-18T03:03:21.779Z] Session [05be1a90-5a48-11e8-948f-dff870416a9a] - page.onError - msg: ReferenceError: Can't find variable: googletag
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-18T03:03:21.779Z] Session [05be1a90-5a48-11e8-948f-dff870416a9a] - page.onError - stack:
+  (anonymous function) (http://hk.racing.nextmedia.com/results.php?date=20170101:44)
+  resolveWith (http://hk.racing.nextmedia.com/js/jquery-1.5.2.min.js:16)
+  ready (http://hk.racing.nextmedia.com/js/jquery-1.5.2.min.js:16)
+  y (http://hk.racing.nextmedia.com/js/jquery-1.5.2.min.js:16)
+
+  phantomjs://platform/console++.js:263 in error
